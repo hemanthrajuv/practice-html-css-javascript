@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+<script src="counter.js"></script>
+</head>
+<body>
+    <center>
+        <span id="counter">0</span><br>
+        <button class="btn" onclick="counter()">subtract and save</button><br>    
+    </center>
+   <div>
+    <ol id="task">
+
+    </ol>
+    <hr>
+    <select name="color">
+        <option value="cadetblue">cadetblue</option>
+        <option value="chartreuse">chartreuse</option>
+    </select>
+    </div>
+    <span id="liveUpdate"></span><br>
+    <form>
+        <center>
+    <input class="input" type="text" oninput="updateT()" id="t" required placeholder="enter task"><br>
+    <button class="btn" type="submit">add</button>
+</center>    
+</form>
+</body>
+</html>
